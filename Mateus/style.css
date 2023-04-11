@@ -1,0 +1,189 @@
+.form-control-dark {
+	border-color: var(--bs-gray);
+  }
+  .form-control-dark:focus {
+	border-color: #fff;
+	box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+  }
+  
+  .text-small {
+	font-size: 85%;
+  }
+  
+  .dropdown-toggle:not(:focus) {
+	outline: 0;
+  }
+  
+@media (min-width: 992px) {
+	.rounded-lg-3 { border-radius: .3rem; }
+  }
+  
+  .b-example-divider {
+	width: 100%;
+	height: 3rem;
+	background-color: rgba(0, 0, 0, .1);
+	border: solid rgba(0, 0, 0, .15);
+	border-width: 1px 0;
+	box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .nav-scroller {
+	position: relative;
+	z-index: 2;
+	height: 2.75rem;
+	overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+	display: flex;
+	flex-wrap: nowrap;
+	padding-bottom: 1rem;
+	margin-top: -1px;
+	overflow-x: auto;
+	text-align: center;
+	white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
+  }
+
+  
+  .bd-mode-toggle {
+	z-index: 1500;
+  }
+	.footer{
+		position: absolute;
+		margin-bottom: 0;
+		width: 100%;
+		height: 100px;
+	}
+	.feature-icon {
+		width: 4rem;
+		height: 4rem;
+		border-radius: .75rem;
+	  }
+	  
+	  .icon-square {
+		width: 3rem;
+		height: 3rem;
+		border-radius: .75rem;
+	  }
+	  
+	  .text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+	  .text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+	  .text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+	  
+	  .card-cover {
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+	  }
+	  
+	  .feature-icon-small {
+		width: 3rem;
+		height: 3rem;
+	  }
+/* style das imagens e escritas das experiencias Profissionais*/
+	.logo-experiencias1 {
+		position: absolute;
+		top: 100;
+		left: 50;
+		width: 150px;
+		height: 58px;
+		background-image: url("../Mateus/img/logo-teknisa.webp");
+		background-size: contain;
+		background-repeat: no-repeat;
+		z-index: 1;
+	  }
+	  .logo-experiencias2 {
+		position: absolute;
+		top: 100;
+		left: 50;
+		width: 150px;
+		height: 58px;
+		background-image: url("../Mateus/img/banco-do-brasil-logo-5.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		z-index: 1;
+	  }
+	  .logo-experiencias3 {
+		position: absolute;
+		top: 100;
+		left: 50;
+		width: 150px;
+		height: 58px;
+		background-image: url("../Mateus/img/logo-Domo.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		z-index: 1;
+	  }
+	  .logo-experiencias4 {
+		position: absolute;
+		top: 100;
+		left: 50;
+		width: 100px;
+		height: 95px;
+		background-image: url("../Mateus/img/logo_pf.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		z-index: 1;
+	  }
+/* linha abaixo da logo*/
+	  .border-bottom {
+		border-bottom: 1px solid black;
+		height: 60px;
+	  }
+/*style do footer*/
+	  .footer{
+		position: absolute;
+		margin-bottom: 0;
+		width: 100%;
+		height: 100px;
+	}
+
+	
+	/*Pagina de Habilidades*/  
+	  .cal-btn:not([disabled]) {
+		font-weight: 500;
+		color: var(--bs-emphasis-color);
+	  }
+	  .cal-btn:hover,
+	  .cal-btn:focus {
+		background-color: var(--bs-secondary-bg);
+	  }
+	  .cal-btn[disabled] {
+		border: 0;
+		opacity: .5;
+	  }
+	  
+	
+	  .w-500px {
+		width: 700px;
+	  }
+	  
+	  .opacity-10 {
+		opacity: .1;
+	  }
+
+	  .tab-content div {
+		display: none;	
+    	padding-top: 20px;
+  }
+
+  #py img {
+	display: block;
+	margin: 0 auto;
+  }
+  #java img {
+	display: block;
+	margin: 0 auto;
+	
+  }
+
+  .img-padrao {
+	max-width: 670px;
+	min-width: 670px;
+  }
+
+	.tab-content div.show {
+		display: block;
+	}
+	/*Pagina de Habilidades fim */
